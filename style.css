@@ -1,0 +1,99 @@
+/* Basic settings */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+    background: url('https://images.unsplash.com/photo-1603570418604-6b3f7d1465ff?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+    height: 300px;
+    position: relative;
+}
+
+header .overlay {
+    background-color: rgba(0, 51, 102, 0.6); /* SL blue */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Form */
+main {
+    max-width: 800px;
+    margin: -50px auto 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+form h2 {
+    color: #003366; /* SL blue */
+    margin-top: 20px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: inherit;
+    margin-top: 8px;
+}
+
+.options label {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0055a5;
+}
+
+#charCount {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.responses {
+    margin-top: 50px;
+}
+
+.response-item {
+    background-color: #f7f7f7;
+    border-left: 5px solid #003366;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.response-item h3 {
+    margin: 0 0 5px;
+}
+
+.response-item p {
+    margin: 5px 0;
+}
