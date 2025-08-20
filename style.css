@@ -40,22 +40,21 @@ main {
 
 form h2 {
     color: #003366; /* SL blue */
-    margin-top: 20px;
-}
-
-input[type="text"], textarea {
-    width: 100%;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-family: inherit;
-    margin-top: 8px;
 }
 
 .options label {
     display: block;
     margin: 10px 0;
     cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: inherit;
 }
 
 button {
@@ -78,22 +77,11 @@ button:hover {
     color: #555;
 }
 
-.responses {
-    margin-top: 50px;
-}
-
-.response-item {
-    background-color: #f7f7f7;
-    border-left: 5px solid #003366;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-}
-
-.response-item h3 {
-    margin: 0 0 5px;
+.hidden {
+    display: none;
 }
 
 .response-item p {
     margin: 5px 0;
 }
+
